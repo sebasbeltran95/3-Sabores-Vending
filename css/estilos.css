@@ -1,0 +1,171 @@
+.separador{
+	background-color: #00C8C5;
+	height: 50px;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -80px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 60px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.05);
+  color: white;
+}
+
+.dot-container {
+	width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+q {
+	font-style: italic;
+}
+
+.author {
+	color: cornflowerblue;
+}
+
+#flotante a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  margin-top: 40vh;
+  z-index: 5000;
+}
+
+#flotante a:hover {
+  left: 0;
+}
+
+#catalogo {
+  top: 20px;
+  background-color: #2196F3;
+}
+
+#contacto {
+  top: 83px;
+  background-color: #4CAF50;
+}
+
+@media screen and (min-width: 1px) and (max-width: 575px) {
+	.tica{
+	text-shadow: 1px 1px 5px black; 
+	font-size: 24px; 
+	font-weight: 900;
+	}
+
+	.txslide{
+		font-size: 18px;
+		display: none;
+	}
+	.btn-sli{
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.tica{
+	text-shadow: 1px 1px 5px black; 
+	font-size: 24px; 
+	font-weight: 900;
+	}
+
+	.txslide{
+		font-size: 16px;
+	}
+	.btn-sli{
+		width: 130px;
+	}	
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+	.tica{
+	text-shadow: 1px 1px 5px black; 
+	font-size: 26px; 
+	font-weight: 900;
+	}
+
+	.txslide{
+		font-size: 18px;
+	}
+	.btn-sli{
+		width: 150px;
+	}	
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.tica{
+	text-shadow: 1px 1px 5px black; 
+	font-size: 26px; 
+	font-weight: 900;
+	}
+
+	.txslide{
+		font-size: 18px;
+	}
+	.btn-sli{
+		width: 150px;
+	}	
+}
+
+@media (min-width: 1200px) {
+	.tica{
+	text-shadow: 1px 1px 5px black; 
+	font-size: 50px; 
+	font-weight: 900;
+	}
+
+	.txslide{
+		font-size: 22px;
+	}
+	.btn-sli{
+		width: 200px;
+	}	
+}

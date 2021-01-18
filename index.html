@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>3 Sabores</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background: url(img/head.jpg) no-repeat center center fixed; background-size: cover;">
+  <img src="img/logo.svg" style="max-width: 300px; -webkit-filter: drop-shadow( 3px 3px 2px rgba(255, 255, 255, .7)); filter: drop-shadow( 3px 3px 2px rgba(255, 255, 255, .7));"> 
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-light" data-toggle="affix" style="background-color: #00C8C5;">
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap pt-3 pb-3">
+        <button class="navbar-toggler btn border-0" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/menu.svg" width="40">
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <img class="mr-3" style="margin-top: 19px" src="img/izq.svg" width="60">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html"><h4>Inicio</h4></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h4>Insumos</h4>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="lineavending.html"><h5>Linea Vending</h5></a>
+                    <a class="dropdown-item" href="lineasaludable.html"><h5>Linea Saludable</h5></a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h4>Servicios</h4>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#Servicios"><h5>Servicio Técnico</h5></a>
+                    <a class="dropdown-item" href="#Servicios"><h5>Cafè para Oficinas</h5></a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h4>Outlet</h4>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="maquinasnuevas.html"><h5>Máquinas Nuevas</h5></a>
+                    <a class="dropdown-item" href="maquinasusadas.html"><h5>Máquinas Usadas</h5></a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Contacto"><h4>Contacto</h4></a>
+                </li>
+
+                <li class="nav-item">
+                  <img class="ml-3" style="margin-top: 19px" src="img/der.svg" width="60">
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/s1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <!-- <h5 class="tica"><b>NUESTRO MUNDO VENDING</b></h5>
+        <p class="txslide">Insumos para la Industria del Vending y el sector HORECA. <br>Productos para el consumo Hogar y NUEVA Línea Saludable</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/s2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5 class="tica">DISPENSADORAS DE CAFÉ PARA OFICINAS, EMPRESAS Y NEGOCIOS</h5>
+        <p class="txslide">¡RENUÉVATE! Cambia tu vieja Cafetera o Greca por una DISPENSADORA AUTOMÁTICA DE CAFÉ.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/s3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5 class="tica">VARIEDAD DE SABORES</h5>
+        <p class="txslide">Pide el Catálogo de Productos y dale una Nueva Experiencia a tus Clientes</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <img src="img/si.svg" height="120">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <img src="img/sd.svg" height="120">
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<section class="container">
+  <div class="row">
+    <div class="col-md-12 mt-5 text-center">
+      <h1 class="display-4 mt-5 text-primary">Somos 3 Sabores Vending</h1>
+    </div>
+    <div class="col-lg-5 col-md-12">
+      <img src="img/logo.svg" class="img-fluid" style="margin-top: 50px; margin-bottom: 50px;">
+    </div>
+    <div class="col-lg-7 col-md-12 text-center">
+      <h5 style="margin-top: 95px; margin-bottom: 50px;">
+        Ofrecemos soluciones integrales para la Industria del consumo de bebidas calientes, bebidas frías y snacks en el Eje Cafetero en las líneas HoReCa y Vending. <br><br>
+
+        Insumos, Compra-Venta de Máquinas Dispensadoras. <br><br>
+
+        - Instalación de Máquinas de Café para Negocios en comodato. <br>
+        - Servicio Técnico Especializado para maquinas de Café, Granizadoras, maquinas de Helado y VENDING <br>
+        - ASESORÍAS INTEGRALES para operadores Vending.
+      </h5>
+    </div>
+    <div class="col-12 text-center mt-2 mb-5">
+        <a href="https://api.whatsapp.com/send?phone=573166244162&text=&source=&data=&app_absent=" target="blank"><img src="img/wha.svg" class="btn-sli"></a>
+    </div>
+  </div>
+</section>
+
+<section class="separador container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <p class="text-dark" style="margin-top: 11px"><img src="img/palma.svg" width="20"><b class="ml-4 mr-4" style="font-weight: 100">Maquinas Dispensadoras, Usadas y Nuevas . OFERTAS PERMANENTES</b><img src="img/palma.svg" width="20"></p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-5">
+      <img src="img/a1.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-6 mt-5 mb-5 text-center">
+      <h1 class="display-4 text-dark">INSUMOS</h1>
+      <a href="lineavending.html" class="btn btn-lg btn-dark rounded-pill">Linea Vending</a>
+      <a href="lineasaludable.html" class="btn btn-lg btn-dark rounded-pill">Linea Saludable</a>
+      <h5 class="mt-3">ENCUENTRE LA MEJOR EXPERIENCIA, SABOR , DESEMPEÑO Y RENDIMIENTO</h5>
+      <p>Productos para maquinas dispensadoras de bebidas calientes.
+      Leche Vending, Mezclas de Capuchino Vainilla, Caramelo, Baylies, Ferrero, Te Chai latte,
+      Aromatica de panela, Chocolate Vending,
+      Bruné, Cafe Instantaneo en polvo y Granulado,Vasos vending, paletinas.
+      Cafés especiales en grano y molido.
+      </p>
+      <h5 class="mt-3">LINEA SALUDABLE</h5>
+      <p>Nuevas Soluciones para maquinas dispensadoras de bebidas calientes y Horeca.
+      Alimentos Instantaneos con proteina vegetal, Leche de almendras Vending, Capuchino
+      en leche de almendras.Cafe instantaneo con panela, Leche de coco, Leche de soya, 
+      Golden milk, Cafe con leche de soya, Te Chai.
+      </p>
+    </div>
+  </div>
+
+<section id="Servicios">
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-5 text-center">
+      <h1 class="display-4 text-dark">NUESTROS SERVICIOS</h1>
+      <a href="#Servicios" class="btn btn-lg btn-dark rounded-pill">Servicio Técnico</a>
+            <p class="mt-3">Soporte y asistencia tecnica para maquinas Vending, Maquinas de cafe automaticas, 
+      Granizadoras y equipos para alimentos.<br>
+      Servicio oportuno, Diagnostico confiable, Transporte, Instalacion y capacitacion . 
+      Servicio a domicilio.<br>
+      Precios justo, Reciba mas por su inversion.<br>
+      Aplica  condiciones y restricciones
+      </p>      
+    </div>
+    <div class="col-md-6 mt-5 mb-5">
+      <img src="img/a2.jpg" class="img-fluid">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-5">
+      <img src="img/a3.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-6 mt-5 mb-5 text-center">
+      <a href="#Servicios" class="btn btn-lg btn-dark rounded-pill">CAFÉ PARA OFICINAS</a>
+      <h5 class="mt-3">SERVICIO DE CAFE PARA EMPRESAS Y OFICINAS EN MAQUINAS DISPENSADORAS</h5>
+      <p>Bienestar, higiene, frescura, servicio moderno, bajo costo, control total del presupuesto.
+      SERVICIO PARA EMPRESAS DESDE 10 EMPLEADOS, maquinas  automaticas .
+      </p>
+    </div>
+  </div>
+</section>
+
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-5 text-center">
+      <h1 class="display-4 text-dark">OUTLET</h1>
+      <a href="maquinasnuevas.html" class="btn btn-lg btn-dark rounded-pill">Máquinas Nuevas</a>
+      <a href="maquinasusadas.html" class="btn btn-lg btn-dark rounded-pill">Máquinas Usadas</a>
+      <p class="mt-3">Permanentemente gozamos de inventario de maquinas usadas y algunas nuevas .
+      Entregamos  maquinas usadas con Revision,  mantenimiento, garantia, instalacion capacitacion .
+      La compra incluye asesoria y dosificacion para el caso de las maquinas de Café.
+      Aplica condiciones y restricciones.</p>
+      <h4 class="mt-3">RECIBIMOS SU MAQUINA USADA EN CONSIGNACION</h4>
+      <h4 class="mt-3">COMPRAMOS SU MAQUINA USADA O PARA REPARACION</h4>
+    </div>
+    <div class="col-md-6 mt-5 mb-5">
+      <img src="img/a4.jpg" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<section id="Contacto">
+<div class="jumbotron text-center bg-dark rounded-0 text-white" style="margin-bottom:0">
+  <div class="row">
+    <div class="col-md-6 text-left">
+      <h2>Comunícate con Nosotros</h2>
+      <h5 style="font-weight: 100;">
+        TRES SABORES VENDING <br>
+        Colombia, Pereira ,Risaralda , Av. 30 de agosto # 68-125 local 20 <br><br>
+        <b>¡Llámanos!</b> <b class="text-info">316-6244162</b> <br>
+        <table class="table table-bordered table-sm text-white mt-3">
+          <tr>
+            <th colspan="2" class="text-center">HORARIOS</th>
+          </tr>
+          <tr>
+            <td>LUNES</td>
+            <td>07:00 a. m. – 05:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>MARTES</td>
+            <td>07:00 a. m. – 05:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>MIERCOLES</td>
+            <td>07:00 a. m. – 05:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>JUEVES</td>
+            <td>07:00 a. m. – 05:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>VIERNES</td>
+            <td>07:00 a. m. – 05:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>SABADO</td>
+            <td>08:00 a. m. – 02:00 p. m.</td>
+          </tr>
+          <tr>
+            <td>DOMINGO</td>
+            <td>Cerrado</td>
+          </tr>
+        </table>
+        <a href="https://wa.me/573166244162" target="_blank" class="btn btn-light btn-lg btn-block rounded-0"><img src="img/wha2.svg" width="30"> Envianos un Mensaje</a>
+      </h5>       
+    </div>
+    <div class="col-md-6 text-left">
+      <h2>¡O, mejor aún visitanos!</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.9399314402073!2d-75.73850321182144!3d4.811268899780568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387df712e00617%3A0x87fc8bb8422b69d0!2s3%20Sabores%20Vending!5e0!3m2!1ses!2sco!4v1594393507511!5m2!1ses!2sco" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  <hr class="border mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-right text-white" style="margin-top: 30px; margin-bottom: 30px">Copyright © 2020 | 3 Sabores Vending </p>
+    </div>
+  </div>
+</div>
+
+<div id="flotante">
+  <a href="Catalogo 3 Sabores.pdf" id="catalogo" class="text-right">
+    <div class="row">
+      <div class="col-7" style="font-size: 14px">Catálogo<br>2020</div>
+      <div class="col-5"><img src="img/pdf.svg" width="40"></div>
+    </div>
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=573154211499&text=Buen%20dia,%20Necesito%20Asesoria" id="contacto" class="text-right" target="blank">
+    <div class="row">
+      <div class="col-7" style="font-size: 14px">Contactar<br>Asesor</div>
+      <div class="col-5"><img src="img/wha2.svg" width="40"></div>
+    </div>
+  </a>
+</div>
+</section>
+
+</body>
+</html>
